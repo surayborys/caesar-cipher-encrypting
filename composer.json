@@ -1,0 +1,21 @@
+{
+    "name": "surayborys/caesar-cipher-encrypt",
+    "description": "Example of the Caesar's cipher encrypting",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Borys Suray",
+            "email": "surayborys@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "surayborys\\caesar\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
